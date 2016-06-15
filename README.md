@@ -6,4 +6,4 @@
 
 3.spider.js文件为爬虫文件，每日00:00定时爬取北大百讲官网的最新票务信息，lib目录下的news.js文件则为图文信息的增删改查，本应用推送的图文信息是由每日爬取的票务信息自动生成的图文信息。
 
-# pku_hall
+注：如需让spider.js和send.js定时启动，index.js能够一直满足点击菜单发送信息，需要将这三个程序一直运行在后台。即forever start xx.js，其中node_moudles中已安装了forever模块。
