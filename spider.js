@@ -8,10 +8,10 @@ var fs = require('fs');
 var cheerio = require('cheerio');
 var news = require('./lib/news');
 
-/*每天实现00:00定时爬虫*/
+/*每天实现08:30定时爬虫*/
 
 var cronJob = require('cron').CronJob;
-var job = new cronJob('00 00 * * *',function () {
+var job = new cronJob('30 08 * * *',function () {
   console.log("每天00:00定时执行爬虫");
 
 
