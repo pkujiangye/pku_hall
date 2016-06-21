@@ -12,7 +12,7 @@ var news = require('./lib/news');
 
 var cronJob = require('cron').CronJob;
 var job = new cronJob('30 08 * * *',function () {
-  console.log("每天00:00定时执行爬虫");
+  console.log("每天08:30定时执行爬虫");
 
 
 // 创建http get请求
